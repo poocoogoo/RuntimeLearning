@@ -23,7 +23,7 @@
 
 - (void)runtimeCaseOperation {
     RLRuntime *runtimeObject = [[RLRuntime alloc] init];
-    [runtimeObject classGetOperation];
+    [runtimeObject copyProtocolListOperation];
 }
 
 

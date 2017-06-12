@@ -8,6 +8,12 @@
 
 #import "RLAccount.h"
 
-@implementation RLAccount
+@implementation RLAccount {
+    NSString *_passwordToken;
+}
+
+- (void)hello {
+    NSLog(@"hello");
+}
 
 @end

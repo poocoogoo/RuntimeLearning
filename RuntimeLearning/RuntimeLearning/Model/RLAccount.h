@@ -8,7 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface RLAccount : NSObject
+@protocol RLAccountDelegate <NSObject>
+
+@optional
+- (void)hello;
+
+@end
+
+@interface RLAccount : NSObject <RLAccountDelegate>
 
 @property (nonatomic, strong, nullable) NSString *name;
 @property (nonatomic) NSInteger age;

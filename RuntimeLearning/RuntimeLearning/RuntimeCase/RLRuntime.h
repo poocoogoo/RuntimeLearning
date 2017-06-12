@@ -12,5 +12,12 @@
 
 - (void)classGetOperation;
 
+- (void)copyIvarListOperation;
+
+- (void)copyMethodListOperation;
+
+- (void)copyPropertyListOperation;
+
+- (void)copyProtocolListOperation;
 
 @end
