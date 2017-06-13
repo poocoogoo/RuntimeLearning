@@ -20,4 +20,14 @@
 
 - (void)copyProtocolListOperation;
 
+- (void)addMethodOperation;
+
+- (void)addPropertyOperation;
+
+- (void)addProtocolOperation;
+
+- (void)addIvarOperation;
+
+- (void)addClassOperation;
+
 @end
